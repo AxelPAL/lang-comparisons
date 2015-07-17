@@ -18,4 +18,4 @@ while (den < 100000000){
 console.log("PI = " + pi +"\n");              // calculated value of pi
 console.log("Math::PI = " + Math.PI + "\n");  // pi from the math class
 var endTime = Date.now();
-console.log(endTime - startTime);
+console.log((endTime - startTime) / 1000);
