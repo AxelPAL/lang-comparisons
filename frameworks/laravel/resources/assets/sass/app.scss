@@ -1,0 +1,33 @@
+@import "../bower/bootstrap-sass/assets/stylesheets/bootstrap";
+
+html,
+body {
+  height: 100%;
+}
+
+.wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
+
+.wrap > .container {
+  padding: 70px 15px 20px;
+}
+
+.demo-card-wide.mdl-card {
+  width: 320px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 150px;
+  background: url('https://unsplash.it/240/240/?random') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.element{
+  float: left;
+  margin: 20px;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "comparison-laravel",
+  "version": "0.0.0",
+  "homepage": "https://github.com/AxelPAL/lang-comparisons",
+  "authors": [
+    "AxelPAL <axelpal@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "material-design-lite": "~1.0.2",
+    "bootstrap-sass": "~3.3.5"
+  }
+}
