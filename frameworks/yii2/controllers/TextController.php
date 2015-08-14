@@ -12,7 +12,7 @@ class TextController extends \yii\web\Controller
         $dataProvider = new ActiveDataProvider([
             'query'      => Text::find(),
             'pagination' => [
-                'pageSize' => 500,
+                'pageSize' => 3000,
             ],
         ]);
 

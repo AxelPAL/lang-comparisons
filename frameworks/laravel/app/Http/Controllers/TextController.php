@@ -17,7 +17,7 @@ class TextController extends Controller
      */
     public function index()
     {
-        $allTexts = Text::paginate(500);
+        $allTexts = Text::paginate(3000);
         return view('text.index')->with(['texts' => $allTexts]);
     }
 

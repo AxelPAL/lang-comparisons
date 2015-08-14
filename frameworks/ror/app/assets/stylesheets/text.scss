@@ -1,0 +1,20 @@
+// Place all the styles related to the Text controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+@import "material";
+.demo-card-wide.mdl-card {
+  width: 320px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 150px;
+  background: url('https://unsplash.it/240/240/?random') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+.element{
+  float: left;
+  margin: 20px;
+}

@@ -1,0 +1,7 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+<% 1.upto(10000) do |i| %>
+fix_<%= i %>:
+  title: <%= (0...60).map { ('a'..'z').to_a[rand(26)] }.join %>
+  content: <%= (0...500).map { ('a'..'z').to_a[rand(26)] }.join %>
+<% end %>
