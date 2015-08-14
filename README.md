@@ -12,7 +12,7 @@ Framework                           | Laravel 5.1.10(LTS)    | Yii2.0.7-dev     
 ----------------------------------- | ---------------------- | ----------------------- | -----------
 Test1(PLD, TTFB, RC)                | 1.17s, 1.36s, 31.25MB  | 2.685s, 2.67s, 31.125MB | 519ms, 558ms, 150.7MB(*)
 
-### Test1 - Page with 3000 models + pagination
+### Test1 - Page with 3000 models + pagination, table contains 10000 of records.
 * PLD - time of loading page (debugger info)
 * PLB - TTFB (browser info)
 * RC - RAM consumption (debugger info)
