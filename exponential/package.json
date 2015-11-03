@@ -1,0 +1,10 @@
+{
+  "name": "exponential",
+  "version": "1.0.0",
+  "description": "",
+  "main": "e.js",
+  "dependencies": {
+    "mathjs": "^2.4.1"
+  },
+  "author": ""
+}
