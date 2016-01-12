@@ -11,11 +11,11 @@ Exponential_function (lib)                                                      
 
 ### Test 1 - Page with 3000 models + pagination, table contains 10000 of records.
 
-Framework             |  PLD    | PLB   | RC
---------------------- | ------- | ----- | -----------
-Laravel 5.1.10(LTS)   |   1.17s | 1.36s | 31.25MB
-Yii2.0.7-dev          |   2.68s | 2.67s | 31.125MB
-Rails 4.2.0           |   0.52s | 0.56s | 150.7MB(*)
+Framework             | Page load       | Memory consumption
+--------------------- | --------------- | ------------------
+Laravel 5.1.28(LTS)   | **0.26s**       | **19.32MB**
+Yii2.0.7-dev          | 0.31s           | 21.23MB
+Rails 4.2.0           | 0.56s           | 150.7MB(*)
 
 * PLD - time of loading page (debugger info)
 * PLB - TTFB (browser info)
