@@ -17,8 +17,4 @@ Laravel 5.1.28(LTS)   | **0.26s**       | **19.32MB**
 Yii2.0.7-dev          | 0.31s           | 21.23MB
 Rails 4.2.0           | 0.56s           | 150.7MB(*)
 
-* PLD - time of loading page (debugger info)
-* PLB - TTFB (browser info)
-* RC - RAM consumption (debugger info)
-
 (*) - WEBrick build-in server
