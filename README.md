@@ -2,7 +2,7 @@
 comparison of Node.JS, PHP, Ruby, Python and their frameworks for typical tasks
 
 
-Test\Language                                                                   | Node.JS 5.4.0    | PHP 7.0.2       | Ruby 2.2.2   | Python 2.7.6  |  Python 3.4.0  
+Test\Language                                                                   | Node.JS 5.4.0    | PHP 7.0.2       | Ruby 2.3.0   | Python 2.7.6  |  Python 3.4.0  
 ------------------------------------------------------------------------------- | ---------------- | --------------- | ------------ | ------------  | -------------- 
 PI                                                                              | **0,48s**        | 4.12s           | 5,52s        | 18,62         | 26,5s   
 [Mandelbrot](http://www.timestretch.com/article/mandelbrot_fractal_benchmark)   | **0,04s**        | 0.52s           | 1,12s        | 1,33s         | 1,71s         
