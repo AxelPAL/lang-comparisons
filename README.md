@@ -16,5 +16,6 @@ Framework             | Page load       | Memory consumption
 Laravel 5.1.28(LTS)   | **0.26s**       | **19.32MB**
 Yii2.0.7-dev          | 0.31s           | 21.23MB
 Rails 4.2.0           | 0.56s           | 150.7MB(*)
+SailsJS 0.11.4        | 0.27s           | 145MB
 
 (*) - WEBrick build-in server
