@@ -6,7 +6,7 @@ Test\Language                                                                   
 ------------------------------------------------------------------------------- | ---------------- | --------------- | ------------ | ------------  | -------------- 
 PI                                                                              | **0,48s**        | 4.12s           | 5,52s        | 18,62         | 26,5s   
 [Mandelbrot](http://www.timestretch.com/article/mandelbrot_fractal_benchmark)   | **0,04s**        | 0.52s           | 1,12s        | 1,33s         | 1,71s         
-Exponential_function (native)                                                   | **0,68s**        | 4.94s           | 175,8s       | 0,44s         | 0,55s      
+Exponential_function (native)                                                   | 0,68s            | 4.94s           | 175,8s       | **0,44s**     | 0,55s      
 Exponential_function (lib)                                                      | **0,09s**        | 11.25s          | -            | 315,22s       | 412,08s     
 
 ### Test 1 - Page with 3000 models + pagination, table contains 10000 of records.
