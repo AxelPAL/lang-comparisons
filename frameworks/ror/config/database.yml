@@ -6,7 +6,7 @@
 #
 default: &default
   adapter: mysql2
-  database: comparisons
+  database: tests
   pool: 5
   timeout: 5000
 
